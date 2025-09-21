@@ -7,11 +7,11 @@ import (
 	"bytes"
 	"crypto/aes"
 
-	"github.com/andlabs/reallymine/command"
-	"github.com/andlabs/reallymine/disk"
-	"github.com/andlabs/reallymine/bridge"
-	"github.com/andlabs/reallymine/kek"
-	"github.com/andlabs/reallymine/decryptloop"
+	"reallymine/command"
+	"reallymine/disk"
+	"reallymine/bridge"
+	"reallymine/kek"
+	"reallymine/decryptloop"
 )
 
 var zeroSector [disk.SectorSize]byte

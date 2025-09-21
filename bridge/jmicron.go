@@ -6,8 +6,8 @@ import (
 	"crypto/aes"
 	"encoding/binary"
 
-	"github.com/andlabs/reallymine/byteops"
-	"github.com/andlabs/reallymine/decryptloop"
+	"reallymine/byteops"
+	"reallymine/decryptloop"
 )
 
 type JMicron struct{}

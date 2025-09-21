@@ -9,9 +9,9 @@ import (
 	"reflect"
 	"encoding/hex"
 
-	"github.com/andlabs/reallymine/disk"
-	"github.com/andlabs/reallymine/kek"
-	"github.com/andlabs/reallymine/decryptloop"
+	"reallymine/disk"
+	"reallymine/kek"
+	"reallymine/decryptloop"
 )
 
 // DiskSize is passed as the size parameter to disk.Open() when an
